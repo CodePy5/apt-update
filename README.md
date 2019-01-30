@@ -1,2 +1,2 @@
-# apt-update
-Simple Linux script to update using apt
+# Update with apt
+More info soon!
