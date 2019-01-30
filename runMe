@@ -1,0 +1,9 @@
+﻿
+echo "Welcome to the CodePy automated update script!"
+echo "Updating repositories..."
+apt update -y
+echo "Done! Attempting to upgrade packages..."
+apt upgrade -y
+echo "Upgrade concluded! Searching and removing unessesary packages..."
+apt autoremove -y
+echo "Complete! If you need help with any errors, feel free to report them on the GitHub repository. Thank you for using CodePy software!"
